@@ -18,6 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DrinksActivity" android:label="Drinks">
+            <intent-filter><action android:name=".DrinksListView"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".EventsActivity" android:label="Events">
+            
+        </activity>
+        <activity android:name=".PicturesActivity" android:label="Pictures">
+            
+        </activity>
     </application>
 
 </manifest>
